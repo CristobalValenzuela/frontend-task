@@ -1,0 +1,7 @@
+export const ADD_TODO = "ADD_TODO";
+export const TOGGLE_TODO = "TOGGLE_TODO";
+export const REMOVE_TODO = "REMOVE_TODO";
+export const SET_FILTER = "SET_FILTER";
+export const FETCH_DATA_REQUEST = "FETCH_DATA_REQUEST";
+export const FETCH_DATA_SUCCESS = "FETCH_DATA_SUCCESS";
+export const FETCH_DATA_ERROR = "FETCH_DATA_ERROR";

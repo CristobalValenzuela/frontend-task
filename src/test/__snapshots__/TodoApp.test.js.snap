@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probamos el componente <TodoApp /> debería mostrar <TodoApp /> correctamente  1`] = `
+<div>
+  <WithStyles(ForwardRef(Container))
+    maxWidth="md"
+  >
+    <WithStyles(ForwardRef(Card))>
+      <WithStyles(ForwardRef(CardHeader))
+        action={
+          <AddTodo
+            openDialog={[Function]}
+          />
+        }
+        title="Lista de Tareas"
+      />
+      <WithStyles(ForwardRef(CardContent))>
+        <Connect(TodoList)
+          setTodo={[Function]}
+        />
+      </WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(CardActions))
+        disableSpacing={true}
+      >
+        <Connect(VisibilityFilters) />
+      </WithStyles(ForwardRef(CardActions))>
+    </WithStyles(ForwardRef(Card))>
+  </WithStyles(ForwardRef(Container))>
+  <Connect(TaskDialog)
+    handleClose={[Function]}
+    open={false}
+  />
+</div>
+`;
